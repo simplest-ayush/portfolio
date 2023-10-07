@@ -48,21 +48,20 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-nav ul{
-    position: sticky;
+.header-container nav ul{
+    position:absolute;
 }
+
 nav ul li{
     display: inline-block;
     list-style: none;
-    position: sticky;
     margin: 10px 20px;
 }
 nav ul li a{
     color: black;
     text-decoration: none;
     font-size: 20px;
-    position: sticky;
-    /* position: relative; */
+    position: relative;
     transition: all 0.2s linear;
 }
 nav ul li a:hover{
@@ -157,45 +156,37 @@ li{
     flex-wrap: wrap;
     /* justify-content:start; */
 }
-#item{
+.item{
     height: 225px;
     width: 225px;
     margin: 80px 41px 0px 65px;
 }
-.one{
+#one{
     background-image: url(aktu.jpg);
     background-size: cover;
     border-radius: 10%;
     box-shadow: 1px 2px 3px 2px black;
 }
-.two{
+#two{
     background-image: url(12th.jpg);
     background-size: cover;
     border-radius: 10%;
     box-shadow: 1px 2px 3px 2px black;
 }
-.three{
+#three{
     background-image: url(10th.jpg);
     background-size: cover;
     border-radius: 10%;
     box-shadow: 1px 2px 3px 2px black;
 }
-#item{
+.item{
     transition: all 0.2s ease-in-out;
 }
-#item:hover{
+.item:hover{
     transform: scale(0.9);
 }
 .education-item-1 ,.education-item-2 ,.education-item-3 {
     text-align: center;
-}
-.education-item-1{
-    color: black;
-}
-.education-item-2{
-    color: black;
-}
-.education-item-3 p{
     color: black;
 }
 
@@ -304,7 +295,7 @@ span{
 }
 
 .logo{
-    height: 100vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
 }
@@ -362,4 +353,7 @@ html{
         font-size: 1.5rem;
         margin-bottom: 20px;
     }
+}
+textarea{
+    resize: none;
 }
