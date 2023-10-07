@@ -192,23 +192,39 @@ li{
 
 /* Projects section */
 #project  {
-    display: flex;
     height: 600px;
     text-align: left;
-    /* justify-content:center; */
     background-color:aqua;
     text-align: center;
     padding-left: 15px;
 }
+#project .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .project-item{
     height: 350px;
     width: 350px;
-    margin: 20px;
+    margin-top: 100px;
+    margin-right: 60px;
     border-radius: 10px;
     background-image: url(project.jpg);
     background-size: cover;
 }
-
+.project-link{
+    margin-top: 100px;
+}
+.project-link a{
+    color: black;
+    font-size: large;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+.project-link a:hover{
+    color: #1877F2;
+}
 /* Contact section */
 #contact{
     background-color: aqua;
@@ -259,7 +275,7 @@ pre{
     border-radius: 5%;
 }
 .contact-form span{
-    color:#e9338b;
+    color:#037471;
 }
 .contact-form .form{
     color: black;
@@ -277,6 +293,9 @@ pre{
     border: 1px solid black;
     color: black;
 }
+textarea{
+    resize: none;
+}
 button{
     box-shadow: 1px 1px 1px 1px black;
     border-radius: 2px;
@@ -286,16 +305,19 @@ button:hover{
     transform: scale(1.1);
 }
 #submit-button:active{
-    background-color: blue;
+    background-color: rgb(78, 73, 57);
     color: whitesmoke;
 }
 span{
     color: black;
     font-family:cursive;
 }
+::placeholder{
+    color:#506349;
+}
 
 .logo{
-    height: 8vh;
+    height: 5vh;
     display: flex;
     justify-content: center;
 }
@@ -353,7 +375,4 @@ html{
         font-size: 1.5rem;
         margin-bottom: 20px;
     }
-}
-textarea{
-    resize: none;
 }
