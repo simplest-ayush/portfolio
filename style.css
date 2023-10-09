@@ -6,13 +6,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
 }
 /* Header */
 header {
     display:flex;
     height: 600px;
-    background-color:aqua;
+    background-color:rgb(234,230,230);
     color: #fff;
     padding: 20px 0;
     justify-content:space-evenly;
@@ -110,7 +110,7 @@ p {
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: rgb(234,230,230);
 }
 
 .box{
@@ -148,7 +148,7 @@ li{
     transform: scale(0.9);
 }
 #education{
-    background-color: aqua;
+    background-color: rgb(234,230,230);
     height: 600px;
 }
 #education .container{
@@ -194,7 +194,7 @@ li{
 #project  {
     height: 600px;
     text-align: left;
-    background-color:aqua;
+    background-color:rgb(234,230,230);
     text-align: center;
     padding-left: 15px;
 }
@@ -227,7 +227,7 @@ li{
 }
 /* Contact section */
 #contact{
-    background-color: aqua;
+    background-color: rgb(234,230,230);
     display: flex;
     height: 580px;
     justify-content: space-around;
