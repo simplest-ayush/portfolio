@@ -11,7 +11,7 @@ body {
 /* Header */
 header {
     display:flex;
-    height: 600px;
+    height: 37.5rem;
     background-color:rgb(234,230,230);
     color: #fff;
     padding: 20px 0;
@@ -27,10 +27,10 @@ header {
     justify-content:space-between;
 }
 #header #header-photo{
-    height: 300px;
-    width: 300px;
+    height: 18.75rem;
+    width: 18.75rem;
     margin: 120px 100px 0px 180px;
-    border-radius: 13px;
+    border-radius: 50%;
     background-color: #2fe8e5;
     box-shadow: 2px 4px 2px 2px #bcfaf9;
     background-image: url(ujjwal.png);
@@ -105,7 +105,7 @@ p {
 /* Sections */
 
 .skill-container{
-    height: 600px;
+    height: 37.5rem;
     padding-left: 20px;
     width: auto;
     display: flex;
@@ -114,8 +114,8 @@ p {
 }
 
 .box{
-    height: 225px;
-    width: 225px;
+    height: 14.063rem;
+    width: 14.063rem;
     margin: 80px 41px 0px 65px;
 }
 #html{
@@ -149,7 +149,7 @@ li{
 }
 #education{
     background-color: rgb(234,230,230);
-    height: 600px;
+    height: 37.5rem;
 }
 #education .container{
     display: flex;
@@ -157,8 +157,8 @@ li{
     /* justify-content:start; */
 }
 .item{
-    height: 225px;
-    width: 225px;
+    height: 14.063rem;
+    width: 14.063rem;
     margin: 80px 41px 0px 65px;
 }
 #one{
@@ -192,7 +192,7 @@ li{
 
 /* Projects section */
 #project  {
-    height: 600px;
+    height: 37.5rem;
     text-align: left;
     background-color:rgb(234,230,230);
     text-align: center;
@@ -354,6 +354,29 @@ html{
     scroll-behavior:smooth;
 }
 @media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 500px) {
     header h1 {
         font-size: 2rem;
     }
