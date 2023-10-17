@@ -11,10 +11,10 @@ body {
 /* Header */
 header {
     display:flex;
-    height: 37.5rem;
+    height: 100.84vh;
     background-color:rgb(234,230,230);
     color: #fff;
-    padding: 20px 0;
+    padding: 3.361vh 0;
     justify-content:space-evenly;
 }
 #header .header-container .header-text{
@@ -27,9 +27,9 @@ header {
     justify-content:space-between;
 }
 #header #header-photo{
-    height: 18.75rem;
-    width: 18.75rem;
-    margin: 120px 100px 0px 180px;
+    height: 50.42vh;
+    width: 23.4375vw;
+    margin: 20.168vh 7.8125vw 0 14.0625vw;
     border-radius: 50%;
     background-color: #2fe8e5;
     box-shadow: 2px 4px 2px 2px #bcfaf9;
@@ -43,7 +43,7 @@ header {
 /* Navigation Bar */
 nav{
     display: flex;
-    height: 30px;
+    height: 5.042vh;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -55,12 +55,12 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 1.68vh 1.5625vw;
 }
 nav ul li a{
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     position: relative;
     transition: all 0.2s linear;
 }
@@ -86,27 +86,27 @@ h1, h2, h3 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     letter-spacing: 2px;
 }
 h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 1.875rem;
+    margin-bottom: 5.042vh;
 }
 h3 {
-    font-size:20px;
-    margin-bottom: 10px;
+    font: size 1.25rem;;
+    margin-bottom: 1.680vh;
 }
 p {
-    font-size: 15px;
+    font-size: 0.938rem;
     line-height: 1.5;
     color: #555;
 }
 /* Sections */
 
 .skill-container{
-    height: 37.5rem;
-    padding-left: 20px;
+    height: 100.84vh;
+    padding-left: 1.5625vw;
     width: auto;
     display: flex;
     flex-wrap: wrap;
@@ -114,9 +114,9 @@ p {
 }
 
 .box{
-    height: 14.063rem;
-    width: 14.063rem;
-    margin: 80px 41px 0px 65px;
+    height: 37.8151vh;
+    width: 17.5781vw;
+    margin: 13.445vh 3.20vw 0px 5.0781vw;
 }
 #html{
     background-image: url(webdev.jpg);
@@ -149,7 +149,7 @@ li{
 }
 #education{
     background-color: rgb(234,230,230);
-    height: 37.5rem;
+    height: 100.84vh;
 }
 #education .container{
     display: flex;
@@ -157,9 +157,9 @@ li{
     /* justify-content:start; */
 }
 .item{
-    height: 14.063rem;
-    width: 14.063rem;
-    margin: 80px 41px 0px 65px;
+    height: 37.8151vh;
+    width: 17.5781vw;
+    margin: 13.445vh 3.20vw 0px 5.0781vw;
 }
 #one{
     background-image: url(aktu.jpg);
@@ -192,11 +192,11 @@ li{
 
 /* Projects section */
 #project  {
-    height: 37.5rem;
+    height: 100.84vh;
     text-align: left;
     background-color:rgb(234,230,230);
     text-align: center;
-    padding-left: 15px;
+    padding-left: 1.1718vw;
 }
 #project .container{
     display: flex;
@@ -204,16 +204,16 @@ li{
 }
 
 .project-item{
-    height: 350px;
-    width: 350px;
-    margin-top: 100px;
-    margin-right: 60px;
+    height: 58.8235vh;
+    width: 27.343vw;
+    margin-top: 16.806vh;
+    margin-right: 4.6875vw;
     border-radius: 10px;
     background-image: url(project.jpg);
     background-size: cover;
 }
 .project-link{
-    margin-top: 100px;
+    margin-top: 16.806vh;
 }
 .project-link a{
     color: black;
@@ -229,31 +229,31 @@ li{
 #contact{
     background-color: rgb(234,230,230);
     display: flex;
-    height: 580px;
+    height: 97.4789vh;
     justify-content: space-around;
 }
 pre{
     text-align:justify;
     color:#141E46;
-    margin-left: 5px;
+    margin-left: 0.39vw;
     line-height: 22.5px;
     font-family: montserrat;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 #contact .container{
-    height: 530px;
+    height: 89.075vh;
     border-radius: 10px;
     background-color:rgb(119, 232, 255);
     box-shadow: 1px 4px 2px 2px black;
 }
 #contact .container p{
-    margin-left: 5px;
+    margin-left: 0.39vw;
     color: #141E46;
 }
 .contact-photo{
-    height: 100px;
-    width: 200px;
-    margin-left: 12px;
+    height: 16.806vh;
+    width: 15.625vw;
+    margin-left: 0.9375vw;
     background-image: url(contact.jpg);
     background-size: cover;
 }
@@ -261,12 +261,12 @@ pre{
     display: flex;
     flex-wrap: wrap;
     text-align:start;
-    padding: 40px 0;
+    padding: 6.722vh 0;
 }
 .contact-form{
-    padding: 10px 20px;
-    height: 440px;
-    width: 440px;
+    padding: 1.68vh 1.5625vw;
+    height: 73.9495vh;
+    width: 34.375vw;
     display: inline-block;
     text-align: left;
     background-color:rgb(119, 232, 255);
@@ -283,12 +283,12 @@ pre{
     border: 2px solid black;
     border-radius: 7px;
     box-shadow: 1px 2px 2px 2px grey;
-    height: 70px;
-    width: 350px;
+    height: 11.764vh;
+    width: 27.343vw;
 }
 .contact-form #submit-button{
-    height: 25px;
-    width: 70px;
+    height: 4.201vh;
+    width: 5.468vw;
     background-color:  rgb(216, 234, 244);
     border: 1px solid black;
     color: black;
@@ -353,7 +353,7 @@ span{
 html{
     scroll-behavior:smooth;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
     }
@@ -398,4 +398,4 @@ html{
         font-size: 1.5rem;
         margin-bottom: 20px;
     }
-}
+} */
