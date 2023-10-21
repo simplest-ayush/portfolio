@@ -36,7 +36,7 @@ header {
     border-radius: 50%;
     background-color: #737a7a;
     box-shadow: 2px 4px 2px 2px #bcfaf9;
-    background-image: url(/images/ayush.jpg);
+    background-image: url(images/ayush.jpg);
     background-size: cover;
     transition: all 0.3s ease-in-out;
 }
