@@ -36,7 +36,7 @@ header {
     border-radius: 50%;
     background-color: #737a7a;
     box-shadow: 2px 4px 2px 2px #bcfaf9;
-    background-image: url(ayush.jpg);
+    background-image: url(/images/ayush.jpg);
     background-size: cover;
     transition: all 0.3s ease-in-out;
 }
@@ -146,7 +146,7 @@ progress{
 #about-image{
     height: 48.76vh;
     width: 28.90vw;
-    background-image: url(html1.jpg);
+    background-image: url(/images/html1.jpg);
     background-size: cover;
 }
 .abt-me-two{
@@ -208,19 +208,19 @@ li{
     margin: 13.445vh 3.20vw 0px 5.0781vw;
 }
 #one{
-    background-image: url(aktu.jpg);
+    background-image: url(images/aktu.jpg);
     background-size: cover;
     border-radius: 10%;
     box-shadow: 1px 2px 3px 2px black;
 }
 #two{
-    background-image: url(12th.jpg);
+    background-image: url(images/12th.jpg);
     background-size: cover;
     border-radius: 10%;
     box-shadow: 1px 2px 3px 2px black;
 }
 #three{
-    background-image: url(10th.jpg);
+    background-image: url(images/10th.jpg);
     background-size: cover;
     border-radius: 10%;
     box-shadow: 1px 2px 3px 2px black;
@@ -255,7 +255,7 @@ li{
     margin-top: 16.806vh;
     margin-right: 4.6875vw;
     border-radius: 10px;
-    background-image: url(project.jpg);
+    background-image: url(images/project.jpg);
     background-size: cover;
 }
 .project-link{
@@ -300,7 +300,7 @@ pre{
     height: 16.806vh;
     width: 15.625vw;
     margin-left: 0.9375vw;
-    background-image: url(contact.jpg);
+    background-image: url(images/contact.jpg);
     background-size: cover;
 }
 #contact .section {
