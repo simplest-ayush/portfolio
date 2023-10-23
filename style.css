@@ -121,17 +121,21 @@ p {
     border: 1px solid black;
 }
 .abt-me-one{
-    width: 30vw;
+    /* width: 30vw; */
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     color: black;
     margin: 2.7vh 6vw;
 }
 #about-skill{
-    /* height: 48.76vh;
-    width: 30.78vw;
-    margin-right: 5vw; */
+    /* height: 48.76vh; */
+    /* width: 30.78vw; */
+    margin-right: 7vw;
 }
+#about-skill ul li{
+    margin-top: 2vh;
+}
+
 label{
     /* margin-right: 0.5vw; */
     color:black;
@@ -144,53 +148,22 @@ progress{
 }
 
 #about-image{
-    height: 48.76vh;
-    width: 28.90vw;
+    height: 45.76vh;
+    width: 26.90vw;
     background-image: url(/images/html1.jpg);
     background-size: cover;
+    border-radius: 18%;
 }
 .abt-me-two{
     display: block;
     color: black;
     margin: 3vh 7vw;
 }
-
-/* .box{
-    height: 37.8151vh;
-    width: 17.5781vw;
-    margin: 13.445vh 3.20vw 0px 5.0781vw;
-}
-#html{
-    background-image: url(webdev.jpg);
-    background-size: cover;
-    border-radius: 10%;
-    box-shadow: 1px 2px 3px 2px black;
-}
-#webdev{
-    background-image: url(html1.jpg);
-    background-size: cover;
-    border-radius: 10%;
-    box-shadow: 1px 2px 3px 2px black;
-}
-#general{
-    background-image: url(others.jpg);
-    background-size: cover;
-    border-radius: 10%;
-    box-shadow: 1px 2px 3px 2px black;
-}
-li{
+.abt-me-two ul li{
     color: black;
+    font-size: 16px;
     list-style: none;
-    text-align: center;
 }
-.box{
-    transition: all 0.3s ease-in-out;
-}
-.box:hover{
-    transform: scale(0.9);
-} */
-
-
 
 
 /* Education section */
