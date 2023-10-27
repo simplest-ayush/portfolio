@@ -17,9 +17,11 @@ header {
     padding: 3.361vh 0;
     justify-content:space-evenly;
 }
-#header .header-container .header-text{
-    color:black;
+#header .header-container .header-text {
+    width: 29vw;
+    color: black;
     text-align: justify;
+    height: 20vh;
 }
 .header-text pre{
     font-size: 1em;
@@ -30,19 +32,17 @@ header {
     justify-content:space-between;
 }
 #header #header-photo{
-    height: 50.42vh;
-    width: 23.4375vw;
-    margin: 20.168vh 7.8125vw 0 14.0625vw;
+    height: 40.42vh;
+    width: 18.4375vw;
+    margin: 14.168vh 18.8125vw 0px 8.0625vw;
     border-radius: 50%;
     background-color: #737a7a;
     box-shadow: 2px 4px 2px 2px #bcfaf9;
     background-image: url(images/ayush.jpg);
     background-size: cover;
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.3s ease-in-out; */
 }
-#header #header-photo:hover{
-    transform: scale(1.5);
-}
+
 /* Navigation Bar */
 .links nav{
     display: inline;
@@ -119,6 +119,8 @@ p {
     color: black;
     margin-top: 15vh;
     border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 3px rgb(211, 211, 211);
 }
 .abt-me-one{
     /* width: 30vw; */
@@ -153,6 +155,7 @@ progress{
     background-image: url(/images/html1.jpg);
     background-size: cover;
     border-radius: 18%;
+    box-shadow: black 4px 4px 6px 3px;
 }
 .abt-me-two{
     display: block;
@@ -167,7 +170,60 @@ progress{
 
 
 /* Education section */
-#education{
+
+.edu-content-left{
+    height: 14vh;
+    width: 36vw;
+    background-color: black;
+    position: relative;
+    left: 11%;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin-top: 15px;
+}
+.edu-content-right{
+    height: 14vh;
+    width: 36vw;
+    background-color: black;
+    position: relative;
+    right: -52%;
+    border: 1px solid black;
+    border-radius: 45px;
+}
+
+.vertical-line{
+    height: 100vh;
+    width: 0.5vw;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+}
+
+.edu-content-left h3{
+    text-align: center;
+    color: #1877F2;
+    font-size: 1.2rem;
+}
+
+.edu-content-left p{
+    text-align: center;
+    color: #f4f1f1;
+    font-size: 0.8rem;
+}
+.edu-content-right h3{
+    text-align: center;
+    color: #1877F2;
+    font-size: 1.2rem;
+}
+
+.edu-content-right p{
+    text-align: center;
+    color:  #f4f1f1;
+    font-size: 0.8rem;
+}
+/* #education{
     background-color: white;
     height: 100.84vh;
 }
@@ -207,7 +263,9 @@ progress{
 .education-item-1 ,.education-item-2 ,.education-item-3 {
     text-align: center;
     color: black;
-}
+} */
+
+
 
 /* Projects section */
 #project  {
@@ -255,43 +313,23 @@ pre{
     text-align:justify;
     color:#141E46;
     margin-left: 0.39vw;
-    line-height: 22.5px;
+    line-height: 4vh;
     font-family: montserrat;
     font-size: 1.25rem;
 }
-#contact .container{
-    height: 89.075vh;
-    border-radius: 10px;
-    background-color:rgb(210,210,210);
-    box-shadow: 1px 4px 2px 2px black;
-}
-#contact .container p{
-    margin-left: 0.39vw;
-    color: #141E46;
-}
-.contact-photo{
-    height: 16.806vh;
-    width: 15.625vw;
-    margin-left: 0.9375vw;
-    background-image: url(images/contact.jpg);
-    background-size: cover;
-}
-#contact .section {
-    display: flex;
-    flex-wrap: wrap;
-    text-align:start;
-    padding: 6.722vh 0;
-}
+
+
+
 .contact-form{
     padding: 1.68vh 1.5625vw;
-    height: 73.9495vh;
-    width: 34.375vw;
+    height: 90.9495vh;
+    width: 80.375vw;
     display: inline-block;
     text-align: left;
-    background-color:rgb(210,210,210);
+    background-color:rgb(242, 241, 241);
     border: 2px sloid black;
     box-shadow: 3px 4px 2px 3px black;
-    border-radius: 5%;
+    border-radius: 13px;
 }
 .contact-form span{
     color:#012359;
@@ -302,7 +340,7 @@ pre{
     border: 2px solid black;
     border-radius: 7px;
     box-shadow: 1px 2px 2px 2px grey;
-    height: 11.764vh;
+    height: 7.764vh;
     width: 27.343vw;
 }
 .contact-form #submit-button{
@@ -332,7 +370,8 @@ span{
     font-family:cursive;
 }
 ::placeholder{
-    color:#506349;
+    color:#232323;
+    font-family:cursive ;
 }
 
 .logo{
@@ -368,6 +407,9 @@ span{
 }
 .fa-x-twitter{
     color:#14171A;
+}
+.fa-code{
+    color: orange;
 }
 html{
     scroll-behavior:smooth;
